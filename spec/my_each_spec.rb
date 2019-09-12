@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require 'pry'
 
-escribe "my_each" do
+describe "my_each" do
   file = File.read('./my_each.rb')
 
   it "does not call on .each" do
