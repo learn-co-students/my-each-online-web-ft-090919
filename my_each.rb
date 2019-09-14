@@ -1,7 +1,10 @@
 def my_each # put argument(s) here
 my_each(collection) do |i|
-  count = 0
-  while count < i
-  puts i
+  i = 0
+  while i < collection.length
+  yeild(collection[i])
+  i += 1
 end
+collection
 end
+
