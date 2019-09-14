@@ -1,5 +1,4 @@
-def my_each # put argument(s) here
-my_each(collection) do |i|
+def my_each(collection) do |i|
   i = 0
   while i < collection.length
   yeild(collection[i])
